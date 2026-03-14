@@ -1,26 +1,26 @@
 const testimonials = [
   {
-    quote: "O Oura se tornou minha bússola diária, me mantendo no caminho certo.",
+    quote: "Voga Ring has become my daily compass, keeping me on the right track.",
     author: "Jussi L.",
-    role: "Membro Oura",
+    role: "Voga Member",
   },
   {
-    quote: "Meus dados do Oura são minha forma de tomada de decisão guiada.",
+    quote: "My Voga data is my way of making guided decisions every single day.",
     author: "Linda D.",
-    role: "Membro Oura",
+    role: "Voga Member",
   },
   {
-    quote: "O Oura foi o primeiro passo para melhorar meu sono. Foi o início da minha jornada de cura.",
+    quote: "Voga Ring was the first step to improving my sleep. It was the beginning of my healing journey.",
     author: "Rhonda C.",
-    role: "Membro Oura",
+    role: "Voga Member",
   },
 ];
 
 const stats = [
-  { value: "2M+", label: "Membros ativos" },
-  { value: "100+", label: "Estudos de pesquisa" },
-  { value: "20+", label: "Biométricas" },
-  { value: "99%", label: "Satisfação dos clientes" },
+  { value: "2M+", label: "Active members" },
+  { value: "100+", label: "Research studies" },
+  { value: "20+", label: "Biometrics" },
+  { value: "99%", label: "Customer satisfaction" },
 ];
 
 export default function TestimonialsSection() {
@@ -42,9 +42,9 @@ export default function TestimonialsSection() {
 
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="section-label text-cream/40 mb-4">O que dizem nossos membros</p>
+          <p className="section-label text-cream/40 mb-4">What our members say</p>
           <h2 className="font-serif text-4xl md:text-5xl font-light text-cream leading-tight">
-            Vidas <span className="display-italic text-gold">transformadas</span>
+            Lives <span className="display-italic text-gold">transformed</span>
           </h2>
         </div>
 

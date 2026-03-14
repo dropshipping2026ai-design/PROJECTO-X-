@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src={ringHero}
-          alt="Oura Ring"
+          alt="Voga Ring"
           className="w-full h-full object-cover opacity-80"
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(100deg, hsl(36 35% 93% / 0.92) 0%, hsl(36 25% 87% / 0.55) 55%, transparent 100%)" }} />
@@ -20,34 +20,34 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 w-full">
         <div className="max-w-lg">
           <p className="section-label text-charcoal-light mb-5 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Oura Ring 4
+            Voga Ring 4
           </p>
           <h1 className="font-serif text-6xl md:text-7xl font-light leading-tight text-charcoal animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Mais Elegante.{" "}
+            More Elegant.{" "}
             <br />
-            Mais Inteligente.
+            More Intelligent.
             <br />
-            <span className="display-italic text-gold">Feito para você.</span>
+            <span className="display-italic text-gold">Made for you.</span>
           </h1>
           <p className="mt-6 text-base font-sans text-charcoal-light leading-relaxed animate-fade-up" style={{ animationDelay: "0.35s" }}>
-            Descubra mais de 20 biométricas diretamente no seu dedo. O anel inteligente mais preciso do mercado.
+            Discover over 20 biometrics right on your finger. The most accurate smart ring on the market.
           </p>
           <div className="mt-8 flex flex-wrap gap-4 animate-fade-up" style={{ animationDelay: "0.45s" }}>
             <a
               href="#shop"
               className="bg-charcoal text-cream font-sans text-sm px-8 py-4 rounded-full hover:bg-charcoal-light transition-all duration-300 hover:shadow-medium"
             >
-              Descobrir Oura Ring 4
+              Discover Voga Ring 4
             </a>
             <a
               href="#features"
               className="border border-charcoal text-charcoal font-sans text-sm px-8 py-4 rounded-full hover:bg-sand transition-all duration-300"
             >
-              Ver Recursos
+              See Features
             </a>
           </div>
           <p className="mt-5 text-xs font-sans text-charcoal-light animate-fade-up" style={{ animationDelay: "0.55s" }}>
-            ✓ Elegível para FSA/HSA &nbsp;•&nbsp; A partir de R$ 1.899
+            ✓ FSA/HSA Eligible &nbsp;•&nbsp; Starting at $299
           </p>
         </div>
       </div>
