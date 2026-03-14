@@ -2,18 +2,18 @@ import ringCeramic from "@/assets/ring-ceramic.jpg";
 
 const products = [
   {
-    name: "Oura Ring 4",
-    description: "O anel inteligente mais preciso do mercado.",
-    price: "A partir de R$ 1.899",
-    badge: "Mais Popular",
+    name: "Voga Ring 4",
+    description: "The most accurate smart ring on the market.",
+    price: "Starting at $299",
+    badge: "Most Popular",
     colors: ["#2a2522", "#c0b8a8", "#d4af37", "#4a4a4a"],
     colorNames: ["Midnight", "Silver", "Gold", "Stealth"],
   },
   {
-    name: "Oura Ring 4 Ceramic",
-    description: "Cerâmica premium para quem quer o máximo em design.",
-    price: "R$ 2.699",
-    badge: "Edição Premium",
+    name: "Voga Ring 4 Ceramic",
+    description: "Premium ceramic for those who want the ultimate in design.",
+    price: "$449",
+    badge: "Premium Edition",
     colors: ["#f5f0e8", "#1a1a1a"],
     colorNames: ["Petal", "Midnight"],
     img: ringCeramic,
@@ -26,13 +26,13 @@ export default function ProductsSection() {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="section-label text-charcoal-light mb-4">Nossa Coleção</p>
+          <p className="section-label text-charcoal-light mb-4">Our Collection</p>
           <h2 className="font-serif text-5xl md:text-6xl font-light text-charcoal leading-tight">
-            Forma encontra{" "}
-            <span className="display-italic text-gold">função</span>
+            Form meets{" "}
+            <span className="display-italic text-gold">function</span>
           </h2>
           <p className="mt-5 font-sans text-base text-charcoal-light max-w-xl mx-auto">
-            Construído para precisão, projetado para o seu dia a dia. Use o Oura Ring o dia todo para coletar métricas de saúde profundamente personalizadas.
+            Built for precision, designed for your everyday life. Wear Voga Ring all day to collect deeply personalized health metrics.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export default function ProductsSection() {
                     />
                   ))}
                   <span className="ml-2 text-xs font-sans text-charcoal-light">
-                    {p.colors.length} cores
+                    {p.colors.length} colors
                   </span>
                 </div>
 
@@ -78,10 +78,10 @@ export default function ProductsSection() {
                   <span className="font-serif text-xl text-charcoal">{p.price}</span>
                   <div className="flex gap-3">
                     <button className="border border-charcoal text-charcoal text-sm font-sans px-5 py-2.5 rounded-full hover:bg-sand transition-colors">
-                      Explorar
+                      Explore
                     </button>
                     <button className="bg-charcoal text-cream text-sm font-sans px-5 py-2.5 rounded-full hover:bg-charcoal-light transition-colors">
-                      Comprar
+                      Buy Now
                     </button>
                   </div>
                 </div>

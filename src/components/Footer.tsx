@@ -1,9 +1,9 @@
 export default function Footer() {
   const links = {
-    "Produtos": ["Oura Ring 4", "Oura Ring 4 Ceramic", "Acessórios", "Aplicativo"],
-    "Recursos": ["Sono", "Atividade", "Saúde do Coração", "Estresse", "Saúde Feminina"],
-    "Empresa": ["Sobre Nós", "Pesquisa", "Carreiras", "Imprensa", "Parceiros"],
-    "Suporte": ["Central de Ajuda", "Tamanho do Anel", "Garantia", "Política de Privacidade"],
+    "Products": ["Voga Ring 4", "Voga Ring 4 Ceramic", "Accessories", "App"],
+    "Features": ["Sleep", "Activity", "Heart Health", "Stress", "Women's Health"],
+    "Company": ["About Us", "Research", "Careers", "Press", "Partners"],
+    "Support": ["Help Center", "Ring Sizing", "Warranty", "Privacy Policy"],
   };
 
   return (
@@ -12,9 +12,9 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mb-16">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <p className="font-serif text-3xl font-light tracking-[0.15em] mb-4">OURA</p>
+            <p className="font-serif text-3xl font-light tracking-[0.15em] mb-4">VOGA RING</p>
             <p className="font-sans text-sm text-cream/50 leading-relaxed max-w-44">
-              A plataforma de saúde pessoal mais precisa do mundo.
+              The world's most accurate personal health platform.
             </p>
           </div>
 
@@ -44,7 +44,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-sans text-xs text-cream/30">
-            © 2025 Oura Health Oy. Todos os direitos reservados.
+            © 2025 Voga Ring. All rights reserved.
           </p>
           <div className="flex gap-6">
             {["Instagram", "Twitter", "YouTube", "LinkedIn"].map((s) => (

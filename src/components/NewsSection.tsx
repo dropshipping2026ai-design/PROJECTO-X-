@@ -1,25 +1,25 @@
 const news = [
   {
     source: "TIME",
-    headline: "Oura Ring 4 — As Melhores Invenções de 2025",
-    url: "https://time.com/collections/best-inventions-2025/",
+    headline: "Voga Ring 4 — Best Inventions of 2025",
+    url: "#",
     featured: true,
   },
   {
     source: "CNN",
-    headline: "CEOs e celebridades adoram o anel de rastreamento de sono da Oura. Seu CEO tem um plano para ficar à frente da Apple e Google",
+    headline: "CEOs and celebrities love Voga's sleep tracking ring. Its CEO has a plan to stay ahead of Apple and Google",
     url: "#",
     featured: false,
   },
   {
     source: "CNBC",
-    headline: "Oura atinge avaliação de US$ 11 bilhões com novo aporte de US$ 900 milhões",
+    headline: "Voga Ring reaches $11 billion valuation with new $900 million funding round",
     url: "#",
     featured: false,
   },
   {
     source: "Cosmopolitan",
-    headline: "Testei o Oura Ring 4 por um ano inteiro e aqui está minha análise honesta",
+    headline: "I tested Voga Ring 4 for a full year and here's my honest review",
     url: "#",
     featured: false,
   },
@@ -30,9 +30,9 @@ export default function NewsSection() {
     <section className="py-28 bg-sand/30">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="section-label text-charcoal-light mb-4">Na Mídia</p>
+          <p className="section-label text-charcoal-light mb-4">In the Press</p>
           <h2 className="font-serif text-5xl md:text-6xl font-light text-charcoal">
-            O mundo <span className="display-italic text-gold">nos nota</span>
+            The world <span className="display-italic text-gold">takes notice</span>
           </h2>
         </div>
 
@@ -40,7 +40,7 @@ export default function NewsSection() {
           {/* Featured */}
           <div className="md:col-span-1 rounded-2xl overflow-hidden border border-border bg-charcoal p-8 flex flex-col justify-between">
             <div>
-              <span className="section-label text-gold">Artigo em Destaque</span>
+              <span className="section-label text-gold">Featured Article</span>
               <p className="font-serif text-2xl font-light text-cream mt-4 leading-snug">
                 {news[0].headline}
               </p>
@@ -51,7 +51,7 @@ export default function NewsSection() {
                 href={news[0].url}
                 className="inline-flex items-center gap-2 text-sm font-sans text-cream border-b border-cream/30 pb-0.5 hover:border-gold hover:text-gold transition-colors"
               >
-                Ler mais →
+                Read more →
               </a>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function NewsSection() {
                 <a
                   href={n.url}
                   className="shrink-0 text-charcoal-light hover:text-gold transition-colors mt-1"
-                  aria-label="Ler artigo"
+                  aria-label="Read article"
                 >
                   →
                 </a>

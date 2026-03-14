@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { ShoppingBag, ChevronDown, Menu, X } from "lucide-react";
 
 const navItems = [
-  { label: "Shop", sub: ["Oura Ring 4", "Oura Ring 4 Ceramic", "Accessories"] },
+  { label: "Shop", sub: ["Voga Ring 4", "Voga Ring 4 Ceramic", "Accessories"] },
   { label: "Health Features", sub: ["Sleep", "Activity", "Heart Health", "Stress", "Women's Health"] },
-  { label: "Experience", sub: ["How It Works", "Oura Membership", "Research"] },
+  { label: "Experience", sub: ["How It Works", "Voga Membership", "Research"] },
   { label: "For Organizations", sub: [] },
 ];
 
@@ -23,7 +23,7 @@ export default function Navbar() {
     <>
       {/* Top banner */}
       <div className="w-full bg-charcoal text-cream text-center py-2.5 text-xs font-sans tracking-wide">
-        Use seus fundos FSA ou HSA na Oura
+        Use your FSA or HSA funds at Voga Ring
       </div>
 
       <nav
@@ -34,7 +34,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="font-serif text-2xl font-light tracking-[0.15em] text-charcoal">
-            OURA
+            VOGA RING
           </a>
 
           {/* Desktop nav */}
@@ -71,7 +71,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
             <button className="hidden md:flex items-center gap-2 bg-charcoal text-cream text-sm font-sans px-5 py-2.5 rounded-full hover:bg-charcoal-light transition-colors">
               <ShoppingBag size={15} />
-              Comprar
+              Shop Now
             </button>
             <button
               className="md:hidden text-charcoal"
@@ -108,7 +108,7 @@ export default function Navbar() {
               </div>
             ))}
             <button className="w-full mt-2 bg-charcoal text-cream text-sm font-sans py-3 rounded-full">
-              Comprar Agora
+              Shop Now
             </button>
           </div>
         )}

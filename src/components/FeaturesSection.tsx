@@ -6,33 +6,33 @@ import { useState } from "react";
 const features = [
   {
     id: "sleep",
-    label: "Sono & Recuperação",
-    headline: "Conquiste o melhor sono da sua vida",
+    label: "Sleep & Recovery",
+    headline: "Achieve the best sleep of your life",
     description:
-      "Monitore cada estágio do seu sono com precisão clínica. Descubra quantas horas de sono profundo você realmente obtém e o que está afetando sua qualidade de descanso.",
+      "Track every sleep stage with clinical precision. Discover how many hours of deep sleep you truly get and what's affecting your rest quality.",
     img: featureSleep,
     stat: "20+",
-    statLabel: "Biométricas monitoradas",
+    statLabel: "Biometrics tracked",
   },
   {
     id: "activity",
-    label: "Atividade & Fitness",
-    headline: "Leve seus objetivos de fitness ao foco",
+    label: "Activity & Fitness",
+    headline: "Bring your fitness goals into focus",
     description:
-      "Desde caminhar até exercícios intensos, o Oura Ring acompanha cada movimento e sugere quando intensificar ou desacelerar para máxima performance.",
+      "From walking to intense workouts, Voga Ring tracks every movement and suggests when to push harder or pull back for maximum performance.",
     img: featureActivity,
-    stat: "7 dias",
-    statLabel: "Autonomia de bateria",
+    stat: "7 days",
+    statLabel: "Battery life",
   },
   {
     id: "design",
-    label: "Design Cerâmico",
-    headline: "Elegância que combina com você",
+    label: "Ceramic Design",
+    headline: "Elegance that matches your style",
     description:
-      "Disponível em titânio e cerâmica premium. Leve, confortável e impermeável, o Oura Ring é acessório e tecnologia ao mesmo tempo.",
+      "Available in titanium and premium ceramic. Lightweight, comfortable, and waterproof — Voga Ring is both an accessory and a technology statement.",
     img: ringCeramic,
     stat: "100m",
-    statLabel: "Resistência à água",
+    statLabel: "Water resistance",
   },
 ];
 
@@ -44,10 +44,10 @@ export default function FeaturesSection() {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="section-label text-charcoal-light mb-4">Por que Oura</p>
+          <p className="section-label text-charcoal-light mb-4">Why Voga Ring</p>
           <h2 className="font-serif text-5xl md:text-6xl font-light text-charcoal leading-tight">
-            Sua associação Oura{" "}
-            <span className="display-italic text-gold">dá voz ao seu corpo</span>
+            Your Voga membership{" "}
+            <span className="display-italic text-gold">gives your body a voice</span>
           </h2>
         </div>
 
@@ -102,7 +102,7 @@ export default function FeaturesSection() {
                   href="#"
                   className="inline-flex items-center gap-2 text-sm font-sans text-charcoal border-b border-charcoal pb-0.5 w-fit hover:text-gold hover:border-gold transition-colors"
                 >
-                  Saiba mais →
+                  Learn more →
                 </a>
               </div>
             </div>
