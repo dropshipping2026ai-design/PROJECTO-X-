@@ -1,25 +1,7 @@
-import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import FeaturesSection from "@/components/FeaturesSection";
-import ProductsSection from "@/components/ProductsSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import NewsSection from "@/components/NewsSection";
-import CtaSection from "@/components/CtaSection";
-import Footer from "@/components/Footer";
-
 export default function Index() {
   return (
-    <div className="min-h-screen">
-      <Navbar />
-      <main>
-        <HeroSection />
-        <FeaturesSection />
-        <ProductsSection />
-        <TestimonialsSection />
-        <NewsSection />
-        <CtaSection />
-      </main>
-      <Footer />
+    <div className="min-h-screen flex items-center justify-center bg-background">
+      <h1 className="text-2xl font-light text-foreground">Start building your app</h1>
     </div>
   );
 }
