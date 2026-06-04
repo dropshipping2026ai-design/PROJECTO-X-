@@ -57,18 +57,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Oura design tokens
-        sand: "hsl(var(--sand))",
-        "sand-deep": "hsl(var(--sand-deep))",
+        navy: {
+          DEFAULT: "hsl(var(--navy))",
+          deep: "hsl(var(--navy-deep))",
+          light: "hsl(var(--navy-light))",
+        },
+        "red-brand": {
+          DEFAULT: "hsl(var(--red))",
+          deep: "hsl(var(--red-deep))",
+          soft: "hsl(var(--red-soft))",
+        },
         gold: "hsl(var(--gold))",
-        "gold-light": "hsl(var(--gold-light))",
-        charcoal: "hsl(var(--charcoal))",
-        "charcoal-light": "hsl(var(--charcoal-light))",
-        cream: "hsl(var(--cream))",
       },
       fontFamily: {
-        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
-        sans: ['DM Sans', 'system-ui', 'sans-serif'],
+        serif: ['Playfair Display', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
