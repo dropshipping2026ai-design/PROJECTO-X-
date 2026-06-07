@@ -55,7 +55,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-background">
       <div className="w-full bg-red-brand text-white text-center py-2 text-xs md:text-sm font-medium tracking-wide px-4">
-        ⚡ Oferta por tempo limitado — apenas hoje a 499 MZN
+        ⚡ Oferta por tempo limitado — apenas hoje a 397 MZN
       </div>
 
       <nav className="bg-navy-deep text-white">
@@ -255,7 +255,7 @@ export default function Index() {
             </div>
             <p className="text-muted-foreground line-through text-lg mb-1">De 1.500 MZN</p>
             <div className="flex items-baseline justify-center gap-2 mb-2">
-              <span className="font-serif text-6xl md:text-7xl font-bold text-red-brand">499</span>
+              <span className="font-serif text-6xl md:text-7xl font-bold text-red-brand">397</span>
               <span className="font-bold text-2xl text-navy">MZN</span>
             </div>
             <p className="text-sm text-muted-foreground mb-8">Pagamento único · Acesso vitalício</p>
@@ -317,7 +317,7 @@ export default function Index() {
           <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">Não deixe a dúvida controlar a sua vida</h2>
           <p className="text-white/90 mb-8">Cada dia sem respostas é mais um dia de angústia. Tome o primeiro passo agora.</p>
           <button onClick={scrollToOffer} className="bg-white text-red-brand font-bold px-8 py-4 rounded-full hover:bg-navy hover:text-white transition-colors">
-            Aceder ao Guia por 499 MZN
+            Aceder ao Guia por 397 MZN
           </button>
         </div>
       </section>
