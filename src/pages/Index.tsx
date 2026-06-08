@@ -50,6 +50,8 @@ export default function Index() {
     }
   };
 
+  const CHECKOUT_URL = "https://checkout.escalepay.com/2025566";
+  const goToCheckout = () => window.open(CHECKOUT_URL, "_blank", "noopener,noreferrer");
   const scrollToOffer = () => document.getElementById("offer")?.scrollIntoView({ behavior: "smooth" });
 
   return (
