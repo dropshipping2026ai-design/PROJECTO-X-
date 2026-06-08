@@ -50,6 +50,8 @@ export default function Index() {
     }
   };
 
+  const CHECKOUT_URL = "https://checkout.escalepay.com/2025566";
+  const goToCheckout = () => window.open(CHECKOUT_URL, "_blank", "noopener,noreferrer");
   const scrollToOffer = () => document.getElementById("offer")?.scrollIntoView({ behavior: "smooth" });
 
   return (
@@ -64,7 +66,7 @@ export default function Index() {
             <Shield className="text-red-brand" size={22} />
             <span className="font-serif text-xl font-bold">Verdade Revelada</span>
           </div>
-          <button onClick={scrollToOffer} className="hidden md:inline-block bg-red-brand hover:bg-red-deep transition-colors text-white text-sm font-semibold px-5 py-2.5 rounded-full">
+          <button onClick={goToCheckout} className="hidden md:inline-block bg-red-brand hover:bg-red-deep transition-colors text-white text-sm font-semibold px-5 py-2.5 rounded-full">
             Aceder ao Guia
           </button>
         </div>
@@ -260,7 +262,7 @@ export default function Index() {
             </div>
             <p className="text-sm text-muted-foreground mb-8">Pagamento único · Acesso vitalício</p>
 
-            <a href="#" className="block w-full bg-red-brand hover:bg-red-brand-deep text-white font-bold text-lg py-5 rounded-full shadow-red transition-all hover:scale-[1.02]">
+            <a href="https://checkout.escalepay.com/2025566" target="_blank" rel="noopener noreferrer" className="block w-full bg-red-brand hover:bg-red-brand-deep text-white font-bold text-lg py-5 rounded-full shadow-red transition-all hover:scale-[1.02]">
               Quero Aceder Agora →
             </a>
 
@@ -316,7 +318,7 @@ export default function Index() {
         <div className="max-w-2xl mx-auto px-5">
           <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">Não deixe a dúvida controlar a sua vida</h2>
           <p className="text-white/90 mb-8">Cada dia sem respostas é mais um dia de angústia. Tome o primeiro passo agora.</p>
-          <button onClick={scrollToOffer} className="bg-white text-red-brand font-bold px-8 py-4 rounded-full hover:bg-navy hover:text-white transition-colors">
+          <button onClick={goToCheckout} className="bg-white text-red-brand font-bold px-8 py-4 rounded-full hover:bg-navy hover:text-white transition-colors">
             Aceder ao Guia por 397 MZN
           </button>
         </div>
