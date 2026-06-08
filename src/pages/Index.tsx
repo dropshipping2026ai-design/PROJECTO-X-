@@ -260,7 +260,7 @@ export default function Index() {
             </div>
             <p className="text-sm text-muted-foreground mb-8">Pagamento único · Acesso vitalício</p>
 
-            <a href="#" className="block w-full bg-red-brand hover:bg-red-brand-deep text-white font-bold text-lg py-5 rounded-full shadow-red transition-all hover:scale-[1.02]">
+            <a href="https://checkout.escalepay.com/2025566" target="_blank" rel="noopener noreferrer" className="block w-full bg-red-brand hover:bg-red-brand-deep text-white font-bold text-lg py-5 rounded-full shadow-red transition-all hover:scale-[1.02]">
               Quero Aceder Agora →
             </a>
 
