@@ -304,13 +304,6 @@ export default function Index() {
             ))}
           </div>
 
-          <div className="mt-12 text-center">
-            <p className="text-muted-foreground mb-4">
-</p>
-            <a href="https://wa.me/258840000000" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full transition-colors text-transparent bg-transparent">
-              <ContactRound size={18} /> 
-            </a>
-          </div>
         </div>
       </section>
 
